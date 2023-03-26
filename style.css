@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(AdobeStock_439259478.jpeg);
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    height: 650px;
+    background: url(Çalışma\ yüzeyi\ 1.png);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(194, 197, 4);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    transition: 0.5s;
+}    
+
+.box img:hover {
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p{
+    text-align: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color:  #ec04ece0;
+}
+
+.box p{
+    font-size: 18px;
+}
+
+
+  .kariyernet-button {
+    background-image: url("11111.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    padding: 0;
+    width: 55px; /* logo genişliği */
+    height: 55px; /* logo yüksekliği */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .kariyernet-button:hover{
+    color: black;
+  }
+
+  .kariyernet-button{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.tp-button {
+    background-image: url("3434.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    padding: 0;
+    width: 55px; /* logo genişliği */
+    height: 55px; /* logo yüksekliği */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .ttp-button {
+    background-image: url("perde3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    padding: 0;
+    width: 55px; /* logo genişliği */
+    height: 55px; /* logo yüksekliği */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+    border-radius: 15px;
+  }
