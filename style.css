@@ -1,4 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     background: url(AdobeStock_439259478.jpeg);
@@ -13,7 +23,7 @@ body {
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: rgb(194, 197, 4);
+    color: rgb(221, 221, 221);
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
 }
@@ -33,6 +43,7 @@ body {
     font-size: 35px;
     letter-spacing: 4px;
     font-weight: 100;
+    color: rgb(194, 197, 4);
 }
 
 .box h5{
@@ -48,6 +59,7 @@ body {
 ul{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .box li{
@@ -58,11 +70,11 @@ ul{
 
 .box li a{
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 63px;
     transition: all ease-in-out 250ms;
 }
 .box li a:hover{
-    color:  #ec04ece0;
+    color:  #4e4c4cd5;
 }
 
 .box p{
@@ -132,3 +144,50 @@ ul{
     cursor: pointer;
     border-radius: 15px;
   }
+
+ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li a .fa-brands {
+    font-size: 63px;
+    color: #ffffff;
+}
+ul li a::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 63px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+ul li:nth-child(1) a::before {
+    content: "\f16d";
+    background-image: linear-gradient(45deg, 
+      #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
+      #bc1888 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    border-bottom: 4px solid #dc2743;
+}
+ul li:nth-child(2) a::before {
+    content: "\f232";
+    color: #25D366;
+    border-bottom: 4px solid #25D366;
+}
+ul li:nth-child(3) a::before {
+    content: "\f099";
+    color: #1DA1F2;
+    border-bottom: 4px solid #1DA1F2;
+}
+ul li:hover a::before {
+    height: 100%;
+}
