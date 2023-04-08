@@ -147,6 +147,26 @@ ul{
     border-radius: 15px;
   }
 
+
+  .peace-button {
+    background-image: url("peace.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+    padding: 0;
+    width: 55px; /* logo genişliği */
+    height: 55px; /* logo yüksekliği */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+
 ul li {
     position: relative;
     list-style: none;
