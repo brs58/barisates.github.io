@@ -11,7 +11,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url(AdobeStock_439259478.jpeg);
+    background: url(AdobeStock_439259478.jpeg) repeat fixed;
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
     height: 100%;
     max-width: 470px;
     max-height: 800px;
-    background: url(Çalışma\ yüzeyi\ 1.png);
+    background: url(Çalışma\ yüzeyi\ 1.png) no-repeat;
     padding: 40px;
     text-align: center;
     margin: auto;
@@ -45,7 +45,7 @@ body {
     font-size: 35px;
     letter-spacing: 4px;
     font-weight: 100;
-    color: rgb(194, 197, 4);
+    color: rgb(167, 170, 10);
 }
 
 .box h5{
